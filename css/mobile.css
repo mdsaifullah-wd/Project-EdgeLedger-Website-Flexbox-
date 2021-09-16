@@ -1,7 +1,7 @@
-#main-header {
+#nav-bar {
     flex-direction: column;
+    justify-content: space-between;
     height: 7rem;
-    justify-content: space-around;
 }
 
 #what {
