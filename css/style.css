@@ -164,3 +164,23 @@ ul {
     padding: 0.5rem 0;
     border-bottom: #555 dotted 1px;
 }
+
+
+/* Our-Clients Section */
+#clients {
+    height: 15rem;
+    padding: 1rem 0;
+}
+#clients h2 {
+    text-align: center;
+}
+#clients .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#clients .container img {
+    flex: 1;
+    width: 3rem;
+    padding: 2rem;
+}
