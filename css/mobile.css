@@ -1,0 +1,50 @@
+#main-header {
+    flex-direction: column;
+    height: 7rem;
+    justify-content: space-around;
+}
+
+#what {
+    height: 100%;
+}
+#what .container {
+    flex-direction: column;
+    width: 80%;
+}
+
+
+
+#clients {
+    height: 100%;
+}
+
+#contact {
+    height: 100%;
+}
+#contact .contact-form,
+#contact .contact-map {
+    flex: 1;
+}
+@media screen and (max-width: 500px) {
+    #who .who-img {
+        display:none;
+    }
+    #contact .contact-map {
+        display:none
+    }
+}
+@media screen and (max-height:400px) and (min-width: 600px) {
+    #main-header {
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .l-heading {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .large {
+        padding: 1rem 0;
+    }
+    
+}

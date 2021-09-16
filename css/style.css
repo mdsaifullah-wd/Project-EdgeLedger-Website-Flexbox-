@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
 }
 a{
     text-decoration: none;
@@ -24,7 +24,7 @@ ul {
 }
 .l-heading {
     font-size: 4rem;
-    margin: 1.5rem 0;
+    line-height: 5rem;
 }
 .m-heading {
     font-size: 2rem;
@@ -35,7 +35,8 @@ ul {
     padding: 1rem 0;
 }
 .large {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     padding: 2rem 0;
 }
 .btn {
@@ -102,15 +103,16 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 
 /* What-We-Do Section */
 #what {
-    height: 17rem;
+    height: 100%;
     background:#f4f4f4;
     color: #333;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 #what h2 {
     text-align: center;
@@ -142,7 +144,7 @@ ul {
 /* Who-We-Are Section */
 
 #who {
-    height: 25rem;
+    height: 100%;
     background: #333;
     display: flex;
 }
@@ -168,7 +170,7 @@ ul {
 
 /* Our-Clients Section */
 #clients {
-    height: 18rem;
+    height: 100%;
     padding: 1rem 0;
 
 }
@@ -179,18 +181,19 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 #clients .container img {
     flex: 1;
     width: 3rem;
-    padding: 2rem;
+    padding: 2vw;
 }
 
 
 /* Contact Section */
 
 #contact {
-    height: 30rem;
+    height: 100%;
     display: flex;
 }
 #contact .contact-form {
@@ -225,6 +228,9 @@ ul {
     cursor: pointer;
 
 }
+#contact .contact-form button:hover {
+    background: #78c025;
+}
 #contact .contact-map {
     flex: 2;
 }
@@ -237,6 +243,7 @@ ul {
     background: #333;
     height: 6rem;
     color: #fff;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
