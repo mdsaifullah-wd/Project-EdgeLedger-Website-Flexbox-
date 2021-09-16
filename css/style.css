@@ -5,19 +5,34 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.2rem;
 }
 a{
     text-decoration: none;
     color: #fff;
 }
-
+ul {
+    list-style: none;
+}
 /* Utility Classes */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
 .marked {
     color: #93cb52;
 }
 .l-heading {
     font-size: 4rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem 0;
+}
+.m-heading {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.s-heading {
+    font-size: 1.1rem;
+    padding: 1rem 0;
 }
 .large {
     font-size: 1.3rem;
@@ -35,7 +50,6 @@ a{
 }
 
 
-
 /* Header Section */
 
 #main-header {
@@ -44,9 +58,10 @@ a{
     background-color: #333;
     color: #fff;
     height: 4rem;
+    width: 100%;
     align-items: center;
     padding: 1rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     opacity: 0.95;
 }
@@ -89,3 +104,63 @@ a{
     align-items: center;
 }
 
+
+/* What-We-Do Section */
+#what {
+    height: 17rem;
+    background:#f4f4f4;
+    color: #333;
+    padding: 1rem 0;
+}
+#what h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+#what .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#what .container .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#what .container .box .icon {
+    background: #93cb52;
+    border-radius: 100%;
+    flex:1;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* Who-We-Are Section */
+
+#who {
+    height: 25rem;
+    background: #333;
+    display: flex;
+}
+#who .box {
+    flex: 1;
+}
+#who .who-img {
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#who .who-info {
+    padding: 1.5rem;
+    color: #fff;
+}
+#who .who-info p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+#who .who-info ul li {
+    padding: 0.5rem 0;
+    border-bottom: #555 dotted 1px;
+}
