@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Utility Classes */
+.marked {
+    color: #93cb52;
+}
+.l-heading {
+    font-size: 4rem;
+    margin: 1.5rem 0;
+}
+.large {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    background-color: #93cb52;
+}
+.btn:hover {
+    background: #78c025;
+}
+
+
+
+/* Header Section */
+
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    height: 4rem;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    opacity: 0.95;
+}
+#main-header #logo {
+    display: flex;
+}
+#main-header #logo i {
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+#main-header #logo h1 {
+    font-size: 1.5rem;
+}
+#main-header ul {
+    flex-basis: 25%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+#main-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+}
+#main-header ul li a:hover {
+    background-color: #93cb52;
+}
+
+
+/* Cover Section */
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
