@@ -24,11 +24,11 @@ ul {
 }
 .l-heading {
     font-size: 4rem;
-    padding: 1.5rem 0;
+    margin: 1.5rem 0;
 }
 .m-heading {
     font-size: 2rem;
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 .s-heading {
     font-size: 1.1rem;
@@ -36,7 +36,7 @@ ul {
 }
 .large {
     font-size: 1.3rem;
-    padding-bottom: 2rem;
+    padding: 2rem 0;
 }
 .btn {
     display: inline-block;
@@ -61,7 +61,7 @@ ul {
     width: 100%;
     align-items: center;
     padding: 1rem;
-    position: fixed;
+    position: sticky;
     top: 0;
     opacity: 0.95;
 }
@@ -227,4 +227,17 @@ ul {
 }
 #contact .contact-map {
     flex: 2;
+}
+
+
+
+/* Footer Section */
+
+#main-footer {
+    background: #333;
+    height: 6rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
