@@ -168,8 +168,9 @@ ul {
 
 /* Our-Clients Section */
 #clients {
-    height: 15rem;
+    height: 18rem;
     padding: 1rem 0;
+
 }
 #clients h2 {
     text-align: center;
@@ -183,4 +184,47 @@ ul {
     flex: 1;
     width: 3rem;
     padding: 2rem;
+}
+
+
+/* Contact Section */
+
+#contact {
+    height: 30rem;
+    display: flex;
+}
+#contact .contact-form {
+    flex: 1;
+    background-color: #93cb52;
+    color: #fff;
+    padding: 2.5rem 2rem;
+}
+#contact .contact-form form {
+    padding: 0.5rem;
+    
+}
+#contact .contact-form form .form-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+#contact .contact-form form .form-group {
+    margin: 0.5rem;
+}
+#contact .contact-form form .form-group input,
+#contact .contact-form form .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact .contact-form button {
+    width: 100%;
+    padding: 0.5rem 0;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#contact .contact-map {
+    flex: 2;
 }
