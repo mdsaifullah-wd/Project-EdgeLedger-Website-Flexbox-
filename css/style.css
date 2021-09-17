@@ -49,10 +49,7 @@ p {
     margin-bottom: 0.75rem;
     line-height: 1.1;
 }
-.s-heading {
-    font-size: 1.1rem;
-    margin: 1rem 0;
-}
+
 .large {
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -213,4 +210,22 @@ p {
 
 #contact .map {
     height: 100%;
+}
+
+
+
+
+/* Smartphone Landscape */
+
+
+@media screen and (max-height:375px) {
+    #showcase {
+        margin-top: -5vh;
+    }
+    .l-heading {
+        font-size: 3rem;
+    }
+    .large {
+        font-size: 1rem;
+    }
 }
