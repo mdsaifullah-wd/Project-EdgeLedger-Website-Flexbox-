@@ -170,14 +170,18 @@ p {
 
 
 /* Our-Clients Section */
-#clients {
-    height: 100%;
-    padding: 1rem 0;
 
+#clients .items {
+    display: flex;
 }
-#clients h2 {
-    text-align: center;
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
+
+/* 
+
 #clients .container {
     display: flex;
     justify-content: space-between;
@@ -188,7 +192,7 @@ p {
     flex: 1;
     width: 3rem;
     padding: 2vw;
-}
+} */
 
 
 /* Contact Section */
