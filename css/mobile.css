@@ -4,15 +4,6 @@
     height: 7rem;
 }
 
-#what {
-    height: 100%;
-}
-#what .container {
-    flex-direction: column;
-    width: 80%;
-}
-
-
 
 #clients {
     height: 100%;

@@ -11,16 +11,26 @@ a{
     text-decoration: none;
     color: #fff;
 }
-ul {
-    list-style: none;
-}
 p {
     padding: 0.75rem 0;
 }
 /* Utility Classes */
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.bg-light {
+    background:#f4f4f4;
+    color: #333;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
 }
 .text-primary {
     color: #93cb52;
@@ -32,16 +42,36 @@ p {
 }
 .m-heading {
     font-size: 2rem;
-    margin: 1rem 0;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
 }
 .s-heading {
     font-size: 1.1rem;
-    padding: 1rem 0;
+    margin: 1rem 0;
 }
 .large {
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+
+.p-1 {padding: 1.5rem;}
+.p-2 {padding: 2rem;}
+.p-3 {padding: 3rem;}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+
 .btn {
     display: inline-block;
     color: #fff;
@@ -73,10 +103,9 @@ p {
     top: 0;
 }
 
-
-
 #nav-bar ul {
     display: flex;
+    list-style: none;
 }
 #nav-bar ul li a{
     padding: 0.75rem;
@@ -108,63 +137,35 @@ p {
 
 
 /* What-We-Do Section */
-#what {
-    height: 100%;
-    background:#f4f4f4;
-    color: #333;
-    padding: 2rem 0;
-}
-#what h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 1rem;
-}
-#what .container {
+
+#what .container .items {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#what .container .box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1rem;
 }
-#what .container .box .icon {
-    background: #93cb52;
-    border-radius: 100%;
+#what .container .items .item {
+    text-align: center;
     flex:1;
-    font-size: 2rem;
-    padding: 1rem 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    padding: 1rem;
+}
+#what .container .items .item i {
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
 }
 
 
 /* Who-We-Are Section */
 
 #who {
-    height: 100%;
-    background: #333;
     display: flex;
 }
-#who .box {
-    flex: 1;
-}
+
 #who .who-img {
     background: url('../img/people.jpg') no-repeat center center/cover;
+    flex: 1;
 }
 #who .who-info {
-    padding: 1.5rem;
-    color: #fff;
-}
-#who .who-info p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-}
-#who .who-info ul li {
-    padding: 0.5rem 0;
-    border-bottom: #555 dotted 1px;
+    flex: 1;
 }
 
 
