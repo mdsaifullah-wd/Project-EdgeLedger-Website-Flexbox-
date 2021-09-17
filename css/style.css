@@ -121,7 +121,7 @@ p {
 }
 
 
-/* Cover Section */
+/* Showcase Section */
 
 #showcase {
     background: url('../img/showcase.jpg') no-repeat center center/cover;
@@ -155,6 +155,7 @@ p {
     background: #93cb52;
     padding: 1rem;
     border-radius: 50%;
+    margin-bottom: 1.3rem;
 }
 
 
@@ -208,4 +209,8 @@ p {
 #contact .contact-form form textarea {
     width: 100%;
     padding: 0.5rem;
+}
+
+#contact .map {
+    height: 100%;
 }
