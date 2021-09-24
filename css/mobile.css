@@ -42,7 +42,10 @@
         flex-direction: column;
     }
     #contact .map {
-        height: 15rem;
+        height: 100%
+    }
+    #contact .map iframe {
+        height: 20rem;
     }
 
 }
